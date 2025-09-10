@@ -54,3 +54,40 @@ spring.jpa.show-sql=true
 
 ## 🚀 Running the Project (IntelliJ IDEA)
 1. Clone the repository
+   ```bash
+   git clone https://github.com/AviK1904/Task-Manager-Api.git
+   cd Task-Manager
+   ```
+2. Open in IntelliJ IDEA
+   
+    File → Open → Select project root.
+   
+    IntelliJ will auto-detect Maven dependencies.
+
+3. Build the Project
+
+   From IntelliJ → Right click pom.xml → "Reload Project"
+
+   Or run:
+
+   ```bash
+   mvn clean install
+   ```
+
+4. Run the application
+
+   In IntelliJ → Right-click TaskManagerApplication → Run.
+
+   Or run:
+
+   ```bash
+   mvn spring-boot:run
+   ```
+
+## ✅ Future Improvements
+
+Add authentication (Spring Security + JWT)
+
+Implement role-based access (Admin/User)
+
+Deploy on cloud (Heroku/AWS)
